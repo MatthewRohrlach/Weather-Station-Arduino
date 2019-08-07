@@ -1,4 +1,4 @@
-getCell = function(){
+function getCell(column, row, col){
 
     var data;
     var api = 'https://spreadsheets.google.com/feeds/cells/';
@@ -6,8 +6,9 @@ getCell = function(){
     var spreadsheet = "18rLzJDnUOZxU7rbbwUoyvdtouVP5rR-k1oScEW8DqTI";
     var worksheet = "default";
     
-    var row = 3;
-    var col = 7;
+    var column;
+    var row;
+    var col;
     //var newrow = then(function(data));
 
     var url = api+spreadsheet+'/'+worksheet+'/public/basic/R'+row+'C'+col+'?alt=json';

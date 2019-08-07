@@ -6,7 +6,7 @@
 	
 <script src="jquery.js"></script>
 <script src="script.js"></script>
-<script src="scriptRead.js"></script>
+<script src="scriptTest.js"></script>
 <script src="getCell.js"></script>
 <link href="style.css" rel="stylesheet">	
 
@@ -14,7 +14,38 @@
 
 <body>
 
-<div>Davis</div>
+<div class="container">
+    <div class="weatherDisplay">
+        <div class="weatherDisplayInfoBox">
+			<div class="miniSun" id="ambientLight"></div>N/A
+		</div>
+    </div>
+    <div class="temperatureDisplay">
+		<div class="temperatureDisplayThermomitorGraphic">
+			<div class="tempReader" id="temperature"></div>
+		</div>
+	</div>
+    <div class="humidityDisplay">
+		<div class="humidityDisplayProp1">
+			<div class="hmdtyReader" id="humidity">N/A</div>
+		</div>
+	
+	</div>
+    <div class="windspeedDisplay" id="windspeed">N/A</div>
+    <div class="UVDisplay" id="UV">N/A</div>
+    <div class="BoMDisplay" id="BOM"></div>
+</div>  
+
+<div class="mC">
+	
+	<div class="sI">Weather Condition</div>
+	<div class="tD">Temperature</div>
+	<div class="aH">Humidity</div>
+	<div class="wS">Wind Speed</div>
+	<div class="uD">UltraViolet</div>
+	<div class="bM">Bureau of Meterology</div>
+	
+</div>
 
 </body>
 </html>

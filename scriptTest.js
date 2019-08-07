@@ -2,6 +2,6 @@
 
 function randomize(number){
 
-    return Math.floor(Math.random() + number) + 1;
+    return Math.floor(Math.random() * number) + 1;
 
 }
