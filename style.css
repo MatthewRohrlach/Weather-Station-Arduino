@@ -58,6 +58,9 @@ body{
         float:right;
         margin: 1%;
         border-radius:50%;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 10px;
     }
     .temperatureDisplay{
         height:100%;
@@ -83,7 +86,7 @@ body{
         display:flex;
         justify-content:center;
         align-items:center;
-        font-size: 40px;
+        font-size: 9mm;
         font-family:"DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif"
     }
     .humidityDisplay{
