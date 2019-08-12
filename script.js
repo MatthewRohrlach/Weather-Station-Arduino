@@ -1,12 +1,9 @@
 $(document).ready(function(){
     
-    var randomNumber = randomize(100);
-    //var temperature = getCell(1, 7, 3);
-    var temperature = getCell();
+    //var randomNumber = randomize(100);
+    //$('#temperature').html(randomNumber);
 
     var value;
-
-    //$('#temperature').html(randomNumber);
 
     function getCell(){
 
